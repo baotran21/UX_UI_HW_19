@@ -1,7 +1,24 @@
 /*css style for my skills*/
-h1 {
+body {
+    background-color: black;
+  }
+  
+  h1 {
+    color:whitesmoke;
     text-align: center;
-}
+    text-align: center;
+  }
+  h3 {
+      color: whitesmoke;
+      font:xx-large;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: caption;
+    color: whitesmoke;
+  }
+
 .flexContainer {
     padding: 10px;
     display: flex;
@@ -36,6 +53,19 @@ h1 {
     width: 400px;
     height: 200px;
 }
+.projectpic{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+.skillpic{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
 /*code an mobile media query to make your design responsice for mobile deviceds*/
 @media only screen and (max-width:600) {
     .flexContainer {
